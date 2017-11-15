@@ -19,7 +19,7 @@ public class OrgCriador {
 		
 		while (leitor.hasNext()) {
 			principal.Evento.orga = new classesBasicas.Organizadores(leitor.next(), leitor.next());
-			System.out.println("Organizador:\nNome: "+principal.Evento.orga.getNome()+"  Email: "+principal.Evento.orga.getEmail()+"\n");
+			System.out.println("Organizador:\nNome: "+principal.Evento.orga.getNome()+"  Email: "+principal.Evento.orga.getEmail());
 		}
 		
 		leitor.close();
